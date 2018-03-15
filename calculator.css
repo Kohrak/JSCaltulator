@@ -3,12 +3,14 @@ body {
 }
 
 button {
+  font-family: 'Aldrich', sans-serif;
   background: #fff7f8;
   border: none;
   border-radius: 20px;
   width: 20%;
   margin: 5px 2%;
   height: 30px;
+  line-height: 30px;
   box-shadow: 1px 1px rgba(0, 0, 0, 0.3);
 }
 
@@ -34,6 +36,7 @@ button {
   border-radius: 5px;
 }
  h1{
+   font-family: 'VT323', monospace;
    background-color: #6e675f;
    color: black;
    text-align: right;
@@ -42,5 +45,7 @@ button {
    margin-bottom: 30px;
    width: 90%;
    height: 40px;
+   line-height: 40px;
    padding-right: 10px;
+   box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
  }
