@@ -4,7 +4,7 @@ var buttons = document.querySelectorAll("button")
 
 for(var i = 0; i < buttons.length - 2; i++){
   buttons[i].addEventListener("click", function(){
-    numbers += this.textContent
+    numbers += this.value
     document.querySelector("h1").textContent = numbers
   })
 }
