@@ -2,6 +2,21 @@ body {
   background-color: #131b23;
 }
 
+h1{
+  font-family: 'VT323', monospace;
+  background-color: #6e675f;
+  color: black;
+  text-align: right;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: 90%;
+  height: 40px;
+  line-height: 40px;
+  padding-right: 10px;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+}
+
 button {
   font-family: 'Aldrich', sans-serif;
   background: #fff7f8;
@@ -14,19 +29,6 @@ button {
   box-shadow: 1px 1px rgba(0, 0, 0, 0.3);
 }
 
-.enterb {
-  background-color: #667761;
-}
-
-.clearb {
-  background-color: #f02d3a;
-}
-
-#buttonPad{
-  display: block;
-  margin: 0 auto;
-}
-
 #container {
   background-color: #edebd7;
   max-width: 300px;
@@ -35,17 +37,17 @@ button {
   padding: 30px 5px 10px 5px;
   border-radius: 5px;
 }
- h1{
-   font-family: 'VT323', monospace;
-   background-color: #6e675f;
-   color: black;
-   text-align: right;
-   border-radius: 15px;
-   margin: 0 auto;
-   margin-bottom: 30px;
-   width: 90%;
-   height: 40px;
-   line-height: 40px;
-   padding-right: 10px;
-   box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
- }
+
+#buttonPad{
+  display: block;
+  margin: 0 auto;
+}
+
+
+.enterb {
+  background-color: #667761;
+}
+
+.clearb {
+  background-color: #f02d3a;
+}
