@@ -1,21 +1,46 @@
-button {
-  background: white;
-  border: 2px solid black;
-  width: 30%;
-  margin: 03px;
-  height: 30px;
+body {
+  background-color: #131b23;
 }
-#container {
-  background-color: steelblue;
-  width: 300px;
+
+button {
+  background: #fff7f8;
+  border: none;
+  border-radius: 20px;
+  width: 20%;
+  margin: 5px 2%;
+  height: 30px;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.enterb {
+  background-color: #667761;
+}
+
+.clearb {
+  background-color: #f02d3a;
+}
+
+#buttonPad{
+  display: block;
   margin: 0 auto;
-  padding: 2px;
+}
+
+#container {
+  background-color: #edebd7;
+  max-width: 300px;
+  height: auto;
+  margin: 30px auto;
+  padding: 30px 5px 10px 5px;
+  border-radius: 5px;
 }
  h1{
-   background-color: gray;
-   color: white;
+   background-color: #6e675f;
+   color: black;
    text-align: right;
-   margin-right: 10px;
-   width: 100%;
+   border-radius: 15px;
+   margin: 0 auto;
+   margin-bottom: 30px;
+   width: 90%;
    height: 40px;
+   padding-right: 10px;
  }
